@@ -1,6 +1,6 @@
-import { Messages } from "./types"
+import { Translations } from "./types"
 
-const ar: Messages = {
+const ar: Translations = {
   Header: {
     buttonHomePage: "الرئيسية",
     buttonMarketPlace: "السوق",

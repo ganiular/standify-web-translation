@@ -1,3 +1,3 @@
 import en from './en';
 
-export type Messages = typeof en;
+export type Translations = typeof en;
