@@ -1,6 +1,6 @@
 const en = {
     Header: {
-        buttonHomePage: "Home",
+        buttonHomePage: "Home Page",
         buttonMarketPlace: "Marketplace",
         buttonEventPage: "Explore Event",
         buttonPostService: "Post Service",
