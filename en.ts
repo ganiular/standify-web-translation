@@ -181,6 +181,48 @@ const en = {
         noReviews: "No reviews yet for this service.",
         loading: "Loading...",
         loadMoreReviews: "Load More Reviews"
+    },
+
+    LoginPage: {
+        buttonSignUp: "Sign Up",
+        title: "Sign In",
+        email: "Email",
+        password: "Password",
+        recoverPassword: "Recover Password",
+        buttonSubmitLoading: "Logging in...",
+        buttonSubmit: "Login",
+    },
+
+    RecoverPasswordPage: {
+        buttonLogin: "Login",
+        title: "Password Recovery",
+        description: `Enter the email address you registered 
+                      with Standify, you will receive an email once verified.`,
+        email: "Email address",
+        password: "Password",
+        recoverPassword: "Recover Password",
+        buttonSubmit: "Recover Password",
+        successTitle: "Recovery Link Sent",
+        successMessage: "Check your email for recovery link. Thanks for using Standify",
+    },
+
+    SignUpPage: {
+        // User types
+        exhibitor: 'Exhibitor',
+        vendor: 'Vendor',
+        organizer: 'Organizer',
+
+        buttonLogin: "Login",
+        title: 'Sign Up',
+        description: 'Let’s Get You Started',
+        selectUserType: 'Select a user type',
+        firstName: 'First name',
+        lastName: 'Last name',
+        email: "Email",
+        password: "Password",
+        terms: '<label>I accept the</label> <tos>Terms of Service</tos> and the <privacy>Privacy Policy</privacy>',
+        buttonSubmitLoading: "Signing up...",
+        buttonSubmit: "Sign Up",
     }
 };
 

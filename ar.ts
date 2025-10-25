@@ -197,6 +197,48 @@ const ar: Translations = {
     noReviews: "لا توجد تقييمات بعد لهذه الخدمة.",
     loading: "جارٍ التحميل...",
     loadMoreReviews: "تحميل المزيد من التقييمات"
+  },
+
+  LoginPage: {
+    buttonSignUp: "إنشاء حساب",
+    title: "تسجيل الدخول",
+    email: "البريد الإلكتروني",
+    password: "كلمة المرور",
+    recoverPassword: "استعادة كلمة المرور",
+    buttonSubmitLoading: "جارٍ تسجيل الدخول...",
+    buttonSubmit: "تسجيل الدخول",
+  },
+
+  RecoverPasswordPage: {
+    buttonLogin: "تسجيل الدخول",
+    title: "استعادة كلمة المرور",
+    description: `أدخل عنوان البريد الإلكتروني الذي سجلت به في Standify،
+                  وستتلقى رسالة إلكترونية بمجرد التحقق.`,
+    email: "عنوان البريد الإلكتروني",
+    password: "كلمة المرور",
+    recoverPassword: "استعادة كلمة المرور",
+    buttonSubmit: "استعادة كلمة المرور",
+    successTitle: "تم إرسال رابط الاستعادة",
+    successMessage: "تحقق من بريدك الإلكتروني للحصول على رابط الاستعادة. شكرًا لاستخدامك Standify",
+  },
+
+  SignUpPage: {
+    // User types
+    exhibitor: 'عارض',
+    vendor: 'بائع',
+    organizer: 'منظم',
+
+    buttonLogin: "تسجيل الدخول",
+    title: 'إنشاء حساب',
+    description: 'لنبدأ معك',
+    selectUserType: 'اختر نوع المستخدم',
+    firstName: 'الاسم الأول',
+    lastName: 'اسم العائلة',
+    email: "البريد الإلكتروني",
+    password: "كلمة المرور",
+    terms: '<label>أوافق على </label> <tos>شروط الخدمة</tos> و <privacy>سياسة الخصوصية</privacy>',
+    buttonSubmitLoading: "جارٍ إنشاء الحساب...",
+    buttonSubmit: "إنشاء حساب",
   }
 };
 
