@@ -207,6 +207,15 @@ const ar: Translations = {
     recoverPassword: "استعادة كلمة المرور",
     buttonSubmitLoading: "جارٍ تسجيل الدخول...",
     buttonSubmit: "تسجيل الدخول",
+
+    EmailVerificationDialog: {
+      title: "يتطلب التحقق من البريد الإلكتروني",
+      description: `يتطلب Standify بريدًا إلكترونيًا نشطًا للوصول إلى حسابك. 
+    يرجى التحقق من بريدك الإلكتروني للمتابعة.`,
+      successMessage: 'تم إرسال رسالة التحقق! يرجى التحقق من صندوق الوارد.',
+      buttonSubmit: "طلب رابط التحقق",
+      buttonSubmitLoading: "جارٍ طلب رابط التحقق...",
+    }
   },
 
   RecoverPasswordPage: {
@@ -239,6 +248,30 @@ const ar: Translations = {
     terms: '<label>أوافق على </label> <tos>شروط الخدمة</tos> و <privacy>سياسة الخصوصية</privacy>',
     buttonSubmitLoading: "جارٍ إنشاء الحساب...",
     buttonSubmit: "إنشاء حساب",
+
+    SignUpSuccessDialog: {
+      title: 'تم التسجيل بنجاح',
+      description: `أرسل Standify رابط التحقق إلى بريدك الإلكتروني. 
+    يرجى التحقق من بريدك الإلكتروني للمتابعة.`,
+      buttonOkay: 'حسنًا',
+    },
+  },
+
+  EmailVerificationPage: {
+    buttonSuccess: 'متابعة إلى تسجيل الدخول',
+    titleError: 'فشل التحقق',
+    buttonError: 'طلب رسالة تحقق جديدة',
+  },
+
+  ResetPasswordPage: {
+    title: 'إعادة تعيين كلمة المرور',
+    buttonLogin: 'تسجيل الدخول الآن',
+    newPassword: 'كلمة المرور الجديدة',
+    confirmPassword: 'تأكيد كلمة المرور',
+    passwordNotMatch: "كلمتا المرور غير متطابقتين",
+    buttonSubmit: 'إرسال',
+    buttonSubmitLoading: 'جارٍ الإرسال...',
+    successMessage: 'تمت إعادة تعيين كلمة المرور بنجاح',
   }
 };
 

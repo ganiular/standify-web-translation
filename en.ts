@@ -191,6 +191,16 @@ const en = {
         recoverPassword: "Recover Password",
         buttonSubmitLoading: "Logging in...",
         buttonSubmit: "Login",
+
+        // Email verification dialog
+        EmailVerificationDialog: {
+            title: "Email Verification Required",
+            description: `Standify requires an active email address to access your account. 
+            Please verify your email to continue.`,
+            successMessage: 'Verification email sent! Please check your inbox.',
+            buttonSubmit: "Request verification link",
+            buttonSubmitLoading: "Requesting verification link..",
+        }
     },
 
     RecoverPasswordPage: {
@@ -223,6 +233,30 @@ const en = {
         terms: '<label>I accept the</label> <tos>Terms of Service</tos> and the <privacy>Privacy Policy</privacy>',
         buttonSubmitLoading: "Signing up...",
         buttonSubmit: "Sign Up",
+
+        SignUpSuccessDialog: {
+            title: 'Signup Successful',
+            description: `Standify has sent verification link to your email. 
+            Please check your email to continue.`,
+            buttonOkay: 'Okay',
+        }
+    },
+
+    EmailVerificationPage: {
+        buttonSuccess: 'Continue to Login',
+        titleError: 'Verification failed',
+        buttonError: 'Request Verification Email',
+    },
+
+    ResetPasswordPage: {
+        title: 'Reset Password',
+        buttonLogin: 'Login Now',
+        newPassword: 'New Password',
+        confirmPassword: 'Confirm Password',
+        passwordNotMatch: "Password not match",
+        buttonSubmit: 'Submit',
+        buttonSubmitLoading: 'Submitting...',
+        successMessage: 'Password Reset Succesful',
     }
 };
 
