@@ -18,4 +18,4 @@ jobs:
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${{ secrets.STANDIFY_DEPLOY_KEY }}" \
             -d '{"event":"translations_updated"}' \
-            https://standify.com/api/revalidate-translations
+            https://getstandify.com/api/revalidate-translations
