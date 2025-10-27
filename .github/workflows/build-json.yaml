@@ -1,0 +1,43 @@
+name: Convert TS translations to JSON
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "*.ts"
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install TypeScript
+        run: npm install typescript --save-dev
+
+      - name: Generate JSON files
+        run: |
+          mkdir -p json
+          for file in *.ts; do
+            base=$(basename "$file" .ts)
+            # Transpile TypeScript to JS, import, and convert to JSON
+            npx ts-node -e "import f from './$file'; import fs from 'fs'; fs.writeFileSync('./json/${base}.json', JSON.stringify(f, null, 2))"
+          done
+
+      - name: Commit and push generated JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add json/*.json
+          git commit -m "Auto-generate JSON translations [skip ci]" || echo "No changes to commit"
+          git push
