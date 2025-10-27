@@ -23,15 +23,15 @@ jobs:
           node-version: 20
 
       - name: Install TypeScript
-        run: npm install typescript --save-dev
+        run: npm install tsx --save-dev
 
       - name: Generate JSON files
         run: |
           mkdir -p json
           for file in *.ts; do
             base=$(basename "$file" .ts)
-            # Transpile TypeScript to JS, import, and convert to JSON
-            npx ts-node -e "import f from './$file'; import fs from 'fs'; fs.writeFileSync('./json/${base}.json', JSON.stringify(f, null, 2))"
+            echo "Converting $file → json/${base}.json"
+            npx tsx -e "import f from './$file'; import fs from 'fs'; fs.writeFileSync('./json/${base}.json', JSON.stringify(f.default ?? f, null, 2))"
           done
 
       - name: Commit and push generated JSON
@@ -41,3 +41,11 @@ jobs:
           git add json/*.json
           git commit -m "Auto-generate JSON translations [skip ci]" || echo "No changes to commit"
           git push
+
+      - name: Notify Standify about new translations
+        run: |
+          curl -X POST \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer ${{ secrets.STANDIFY_DEPLOY_KEY }}" \
+            -d '{"event":"translations_updated"}' \
+            https://getstandify.com/api/revalidate-translations
