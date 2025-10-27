@@ -1,4 +1,4 @@
-import { Translations } from "./types"
+import { Translations } from "./utils/types"
 
 const ar: Translations = {
   Header: {
