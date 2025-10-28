@@ -23,7 +23,7 @@ jobs:
           node-version: 20
 
       - name: Install TypeScript tools
-        run: npm install tsx typescript --save-dev
+        run: npm install tsx --save-dev
 
       - name: Generate JSON files
         run: |
@@ -38,9 +38,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git checkout -B generated-json
           git add -f json/*.json
-          git commit -m "Auto-generate JSON translations [skip ci]" || echo "No changes to commit"
-          git push
+          git commit -m "Auto-generated JSON files [skip ci]"
+          git push origin generated-json --force
 
       - name: Notify Standify app
         env:
