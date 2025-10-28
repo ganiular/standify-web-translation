@@ -39,13 +39,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add json/*.json
-          git commit -m "Auto-generate JSON translations [skip ci]" || echo "No changes to commit"
-          git push
+          git diff --quiet && echo "No JSON changes to commit" || (git commit -m "Auto-generate JSON translations [skip ci]" && git push)
 
-      - name: Notify Standify about new translations
+      - name: Notify Standify app
+        env:
+          STANDIFY_API_URL: https://getstandify.com/api/translation
+          STANDIFY_DEPLOY_KEY: ${{ secrets.STANDIFY_DEPLOY_KEY }}
         run: |
-          curl -X POST \
+          COMMIT_ID=$(git rev-parse HEAD)
+          echo "🔔 Sending commit ID $COMMIT_ID to Standify..."
+          curl -X POST "$STANDIFY_API_URL" \
+            -H "Authorization: Bearer $STANDIFY_DEPLOY_KEY" \
             -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${{ secrets.STANDIFY_DEPLOY_KEY }}" \
-            -d '{"event":"translations_updated"}' \
-            https://getstandify.com/api/revalidate-translations
+            -d "{\"commit_id\": \"$COMMIT_ID\"}"
