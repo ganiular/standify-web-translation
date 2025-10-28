@@ -44,12 +44,12 @@ jobs:
 
       - name: Notify Standify app
         env:
-          STANDIFY_API_URL: https://getstandify.com/api/translation
+          STANDIFY_API_URL: https://getstandify.com/api/translation/
           STANDIFY_DEPLOY_KEY: ${{ secrets.STANDIFY_DEPLOY_KEY }}
         run: |
           COMMIT_ID=$(git rev-parse HEAD)
           echo "🔔 Sending commit ID $COMMIT_ID to Standify..."
-          RESPONSE=$(curl -s -X POST "$STANDIFY_API_URL" \
+          RESPONSE=$(curl -s -L -X POST "$STANDIFY_API_URL" \
             -H "Authorization: Bearer $STANDIFY_DEPLOY_KEY" \
             -H "Content-Type: application/json" \
             -d "{\"commit_id\": \"$COMMIT_ID\"}")
