@@ -4,7 +4,7 @@ on:
   push:
     branches: [master]
     paths:
-      - "*.ts"
+      - "translations/*.ts"
 
 permissions:
   contents: write
@@ -22,8 +22,8 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install TypeScript
-        run: npm install tsx --save-dev
+      - name: Install TypeScript tools
+        run: npm install tsx typescript --save-dev
 
       - name: Generate JSON files
         run: |
@@ -39,7 +39,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add json/*.json
-          git diff --quiet && echo "No JSON changes to commit" || (git commit -m "Auto-generate JSON translations [skip ci]" && git push)
+          git diff --cached --quiet && echo "No JSON changes to commit" || (git commit -m "Auto-generate JSON translations [skip ci]" && git push)
 
       - name: Notify Standify app
         env:
