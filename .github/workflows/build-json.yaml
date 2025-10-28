@@ -49,7 +49,6 @@ jobs:
         run: |
           COMMIT_ID=$(git rev-parse HEAD)
           echo "🔔 Sending commit ID $COMMIT_ID to Standify..."
-          echo "Auth: $STANDIFY_DEPLOY_KEY"
           RESPONSE=$(curl -s -L -X POST "$STANDIFY_API_URL" \
             -H "Authorization: Bearer $STANDIFY_DEPLOY_KEY" \
             -H "Content-Type: application/json" \
