@@ -1,4 +1,4 @@
-import { Translations } from "./utils/types"
+import { Translations } from "./utils/types";
 
 const ar: Translations = {
   Header: {
@@ -26,6 +26,7 @@ const ar: Translations = {
     stayUpdated: "ابقَ على اطلاع",
     emailPlaceholder: "أدخل البريد الإلكتروني",
     buttonSubscribeNow: "اشترك الآن",
+    buttonSubscribeNowLoading: "اشترك الآن",
     categories: "الفئات",
     quickLink: "روابط سريعة",
   },
@@ -62,7 +63,8 @@ const ar: Translations = {
     About: {
       title: "عن ستانديفاي",
       list: {
-        item1: "ستانديفاي تحدث ثورة في تخطيط المعارض في الخليج ومنطقة الشرق الأوسط وشمال أفريقيا",
+        item1:
+          "ستانديفاي تحدث ثورة في تخطيط المعارض في الخليج ومنطقة الشرق الأوسط وشمال أفريقيا",
         item2:
           "انطلاقًا من التحديات مثل التكاليف الخفية ومقدمي الخدمات غير الموثوقين واللوجستيات المعقدة، أنشأنا منصة شفافة تربط العارضين مباشرة بالموردين المعتمدين والموثوقين",
         item3:
@@ -196,7 +198,7 @@ const ar: Translations = {
     stars: "النجوم",
     noReviews: "لا توجد تقييمات بعد لهذه الخدمة.",
     loading: "جارٍ التحميل...",
-    loadMoreReviews: "تحميل المزيد من التقييمات"
+    loadMoreReviews: "تحميل المزيد من التقييمات",
   },
 
   LoginPage: {
@@ -212,10 +214,10 @@ const ar: Translations = {
       title: "يتطلب التحقق من البريد الإلكتروني",
       description: `يتطلب Standify بريدًا إلكترونيًا نشطًا للوصول إلى حسابك. 
     يرجى التحقق من بريدك الإلكتروني للمتابعة.`,
-      successMessage: 'تم إرسال رسالة التحقق! يرجى التحقق من صندوق الوارد.',
+      successMessage: "تم إرسال رسالة التحقق! يرجى التحقق من صندوق الوارد.",
       buttonSubmit: "طلب رابط التحقق",
       buttonSubmitLoading: "جارٍ طلب رابط التحقق...",
-    }
+    },
   },
 
   RecoverPasswordPage: {
@@ -228,51 +230,53 @@ const ar: Translations = {
     recoverPassword: "استعادة كلمة المرور",
     buttonSubmit: "استعادة كلمة المرور",
     successTitle: "تم إرسال رابط الاستعادة",
-    successMessage: "تحقق من بريدك الإلكتروني للحصول على رابط الاستعادة. شكرًا لاستخدامك Standify",
+    successMessage:
+      "تحقق من بريدك الإلكتروني للحصول على رابط الاستعادة. شكرًا لاستخدامك Standify",
   },
 
   SignUpPage: {
     // User types
-    exhibitor: 'عارض',
-    vendor: 'بائع',
-    organizer: 'منظم',
+    exhibitor: "عارض",
+    vendor: "بائع",
+    organizer: "منظم",
 
     buttonLogin: "تسجيل الدخول",
-    title: 'إنشاء حساب',
-    description: 'لنبدأ معك',
-    selectUserType: 'اختر نوع المستخدم',
-    firstName: 'الاسم الأول',
-    lastName: 'اسم العائلة',
+    title: "إنشاء حساب",
+    description: "لنبدأ معك",
+    selectUserType: "اختر نوع المستخدم",
+    firstName: "الاسم الأول",
+    lastName: "اسم العائلة",
     email: "البريد الإلكتروني",
     password: "كلمة المرور",
-    terms: '<label>أوافق على </label> <tos>شروط الخدمة</tos> و <privacy>سياسة الخصوصية</privacy>',
+    terms:
+      "<label>أوافق على </label> <tos>شروط الخدمة</tos> و <privacy>سياسة الخصوصية</privacy>",
     buttonSubmitLoading: "جارٍ إنشاء الحساب...",
     buttonSubmit: "إنشاء حساب",
 
     SignUpSuccessDialog: {
-      title: 'تم التسجيل بنجاح',
+      title: "تم التسجيل بنجاح",
       description: `أرسل Standify رابط التحقق إلى بريدك الإلكتروني. 
     يرجى التحقق من بريدك الإلكتروني للمتابعة.`,
-      buttonOkay: 'حسنًا',
+      buttonOkay: "حسنًا",
     },
   },
 
   EmailVerificationPage: {
-    buttonSuccess: 'متابعة إلى تسجيل الدخول',
-    titleError: 'فشل التحقق',
-    buttonError: 'طلب رسالة تحقق جديدة',
+    buttonSuccess: "متابعة إلى تسجيل الدخول",
+    titleError: "فشل التحقق",
+    buttonError: "طلب رسالة تحقق جديدة",
   },
 
   ResetPasswordPage: {
-    title: 'إعادة تعيين كلمة المرور',
-    buttonLogin: 'تسجيل الدخول الآن',
-    newPassword: 'كلمة المرور الجديدة',
-    confirmPassword: 'تأكيد كلمة المرور',
+    title: "إعادة تعيين كلمة المرور",
+    buttonLogin: "تسجيل الدخول الآن",
+    newPassword: "كلمة المرور الجديدة",
+    confirmPassword: "تأكيد كلمة المرور",
     passwordNotMatch: "كلمتا المرور غير متطابقتين",
-    buttonSubmit: 'إرسال',
-    buttonSubmitLoading: 'جارٍ الإرسال...',
-    successMessage: 'تمت إعادة تعيين كلمة المرور بنجاح',
-  }
+    buttonSubmit: "إرسال",
+    buttonSubmitLoading: "جارٍ الإرسال...",
+    successMessage: "تمت إعادة تعيين كلمة المرور بنجاح",
+  },
 };
 
 export default ar;
