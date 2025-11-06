@@ -185,6 +185,7 @@ const en = {
     noDescriptionProvided: "No description provided.",
     features: "Features",
     requirements: "Requirements",
+    noRequirements: "No specifications",
     gallery: "Gallery",
     noGallery: "No gallery images.",
     vendor: "Vendor",

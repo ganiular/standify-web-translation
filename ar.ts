@@ -183,6 +183,7 @@ const ar: Translations = {
     noDescriptionProvided: "لم يتم تقديم وصف.",
     features: "الميزات",
     requirements: "المتطلبات",
+    noRequirements: "No specifications",
     gallery: "المعرض",
     noGallery: "لا توجد صور في المعرض.",
     vendor: "البائع",
