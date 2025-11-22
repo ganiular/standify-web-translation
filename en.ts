@@ -281,6 +281,13 @@ const en = {
     buttonSubmitLoading: "Submitting...",
     successMessage: "Password Reset Succesful",
   },
+
+  Event: {
+    sending: "Sending...",
+    sendMessage: "Send Message",
+    pleaseLogin:
+      "Please <link>log in</link> to send a message to the organizer.",
+  },
 };
 
 export default en;
