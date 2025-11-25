@@ -278,6 +278,13 @@ const ar: Translations = {
     buttonSubmitLoading: "جارٍ الإرسال...",
     successMessage: "تمت إعادة تعيين كلمة المرور بنجاح",
   },
+
+  Event: {
+    sending: "Sending...",
+    sendMessage: "Send Message",
+    pleaseLogin:
+      "Please <link>log in</link> to send a message to the organizer.",
+  },
 };
 
 export default ar;
