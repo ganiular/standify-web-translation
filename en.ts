@@ -60,8 +60,8 @@ const en = {
     },
 
     About: {
-      title: `Redefining the Exhibition Experience 
- Who We Are?
+      title: `Redefining the Exhibition Experience
+      Who We Are?
  
  `
 ,
