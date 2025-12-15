@@ -73,16 +73,16 @@ const en = {
     },
 
     Users: {
-      title: "Our Users",
-      exhibitor: "Exhibitors: Source everything you need with ease",
+      title: "Powering Every Side of the Exhibition",
+      exhibitor: "Exhibitors",
       exhibitorDescription:
         "Post your project and receive tailored quotes from our vetted network of regional experts, ready to execute your vision flawlessly",
       provider: "Service Providers",
       providerDescription:
-        "Showcase your skills as a verified builder, designer, or supplier by pitching directly on projects that match your expertise.",
+        "Showcase your expertise and get directly discovered by quality clients with projects that match your skills.",
       organizer: "Organizers",
       organizerDescription:
-        "Manage exhibitor projects seamlessly, recommend the best providers, and even customize the platform to fit your event's unique needs.",
+        "Our platform lets you elevate your event remotely attract new audiences and re-engage past participants through a smooth and professional experience.",
     },
 
     EverythingYouNeed: {
