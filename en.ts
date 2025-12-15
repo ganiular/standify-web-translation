@@ -48,7 +48,7 @@ const en = {
       buildWithConfidence: "Kickstart your project with confidence.",
       buildWithConfidenceDescription:
         "Browse our handpicked network of trusted exhibition providers or let the Standify team recommend perfect-fit partners for your refined brief.",
-      verifiedSuppliers: "Compare Verified Suppliers",
+      verifiedSuppliers: "Get matched with Ideal Partners",
       verifiedSuppliersDescription:
         "Browse a curated list of trusted vendors with ratings, reviews, and service portfolios tailored to your project needs.",
       postYoutProject: "Post your project",
