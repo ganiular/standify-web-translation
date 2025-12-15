@@ -33,7 +33,7 @@ const en = {
 
     // Hero Section
     Hero: {
-      title: "Your Exhibition Marketplace for the Middle East",
+      title: "One Link. One Exhibition Hub.",
       buttonListService: "List Service",
       buttonPostProject: "Post Project",
       buttonCreateEvent: "Create an Event",
@@ -44,10 +44,10 @@ const en = {
 
     // How it works section
     HowItWorks: {
-      title: "How It Works",
-      buildWithConfidence: "Build with Confidence",
+      title: "How We Power Your Project",
+      buildWithConfidence: "Kickstart your project with confidence.",
       buildWithConfidenceDescription:
-        "Work only with approved professionals and rely on secure payments, milestone tracking, and dedicated support.",
+        "Browse our handpicked network of trusted exhibition providers or let the Standify team recommend perfect-fit partners for your refined brief.",
       verifiedSuppliers: "Compare Verified Suppliers",
       verifiedSuppliersDescription:
         "Browse a curated list of trusted vendors with ratings, reviews, and service portfolios tailored to your project needs.",
