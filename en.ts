@@ -63,7 +63,7 @@ const en = {
       title: `Redefining the Exhibition Experience 
  Who We Are?
  
- Born from the industry’s challenges, our platform delivers a transparent environment that eliminates hidden costs and connects you with trusted partners all in the same workspace. We’re reinventing exhibition planning in the region with local expertise and bilingual support that ensure clarity and professionalism every step of the way.`
+ `
 ,
       list: {
         item1:
