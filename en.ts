@@ -61,9 +61,8 @@ const en = {
 
     About: {
       title: `Redefining the Exhibition Experience
-      Who We Are?
- 
- `
+      
+      Who We Are?`
 ,
       list: {
         item1:
