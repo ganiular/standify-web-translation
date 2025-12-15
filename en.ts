@@ -60,9 +60,7 @@ const en = {
     },
 
     About: {
-      title: `Redefining the Exhibition Experience
-      
-      Who We Are?`
+      title: "Who We Are?"
 ,
       list: {
         item1:
@@ -76,9 +74,9 @@ const en = {
 
     Users: {
       title: "Our Users",
-      exhibitor: "Exhibitors",
+      exhibitor: "Exhibitors: Source everything you need with ease",
       exhibitorDescription:
-        "Easily post your stand project and receive personalized quotes from trusted regional experts ready to bring your vision to life.",
+        "Post your project and receive tailored quotes from our vetted network of regional experts, ready to execute your vision flawlessly",
       provider: "Service Providers",
       providerDescription:
         "Showcase your skills as a verified builder, designer, or supplier by pitching directly on projects that match your expertise.",
