@@ -50,14 +50,19 @@ const en = {
         "Browse our handpicked network of trusted exhibition providers or let the Standify team recommend perfect-fit partners for your refined brief.",
       verifiedSuppliers: "Get matched with Ideal Partners",
       verifiedSuppliersDescription:
-        "Browse a curated list of trusted vendors with ratings, reviews, and service portfolios tailored to your project needs.",
-      postYoutProject: "Post your project",
+        `Find your perfect partner with total ease.
+ Relax as tailored proposals arrive from our top-rated, fully vetted providers. Discover fresh ideas, compare competitive offers, and choose the one that aligns with your vision.
+ All on your own terms and with complete confidentiality`,
+      postYoutProject: "Collaborate and Succeed",
       postYoutProjectDescription:
-        "Easily share your project details, budget, and timeline to start receiving competitive proposals from top-rated suppliers.",
+        `Kick off your project with confidence from one integrated control hub.
+ Chat, share files, and handle secure payments all in one seamless space designed to make collaboration effortless.`,
     },
 
     About: {
-      title: "About Standify",
+      title: `Redefining the Exhibition Experience 
+ Who We Are?`
+,
       list: {
         item1:
           "Standify is revolutionizing exhibition planning in the Gulf and MENA region",
