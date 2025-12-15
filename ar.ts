@@ -37,7 +37,7 @@ const ar: Translations = {
 
     // Hero Section
     Hero: {
-      title: "سوقك للمعارض في الشرق الأوسط",
+      title: "منصة واحدة لعالم خدمات المعارض",
       buttonListService: "إضافة خدمة",
       buttonPostProject: "نشر مشروع",
       buttonCreateEvent: "إنشاء حدث",
@@ -48,13 +48,17 @@ const ar: Translations = {
 
     // How it works section
     HowItWorks: {
-      title: "كيف يعمل",
-      buildWithConfidence: "ابنِ بثقة",
-      buildWithConfidenceDescription:
-        "اعمل فقط مع محترفين معتمدين واعتمد على المدفوعات الآمنة، تتبع الإنجازات، والدعم المخصص.",
-      verifiedSuppliers: "قارن بين الموردين المعتمدين",
-      verifiedSuppliersDescription:
-        "تصفح قائمة من الموردين الموثوقين مع التقييمات والمراجعات وعروض الخدمات المصممة لاحتياجات مشروعك.",
+      title: "كيف تبدأ مشروعك",
+      buildWithConfidence: "أطلق مشروعك بثقة",
+      buildWithConfidenceDescription: `تصفح شبكتنا المختارة بعناية من المزودين الموثوقين 
+ ودع فريق ستانديفاي 
+ يرشح لك الشركاء الأنسب لاحتياجاتك الدقيقة.
+`,
+      verifiedSuppliers: "اعثر على الشريك المثالي بسهولة تامة",
+      verifiedSuppliersDescription: `استرخِ ودع العروض المصممة خصيصًا لك تصل من مزودين موثوقين.
+استكشف أفكارًا جديدة، قارن بين أفضل العروض، واختر الأنسب لرؤيتك
+.كل ذلك بشروطك الخاصة وبسرية تامة
+`,
       postYoutProject: "انشر مشروعك",
       postYoutProjectDescription:
         "شارك تفاصيل مشروعك وميزانيتك والجدول الزمني بسهولة لتبدأ بتلقي عروض تنافسية من أفضل الموردين تقييمًا.",
