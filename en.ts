@@ -86,26 +86,24 @@ const en = {
     },
 
     EverythingYouNeed: {
-      title: "Everything You Need",
-      description: `Standify connects you with trusted service providers across the Gulf
-            and Middle East to deliver every element of your exhibition stand —
-            all in one place.`,
+      title: "All your problems solved at once.",
+      description: `Everything your brands requires in your event`,
       buttonExplore: "Explore Full Feature List",
-      boothDesign: "3D booth design",
+      boothDesign: "Design and Visualization",
       boothDesignDescription:
-        "Visualize your stand before it's built. Work with expert designers to create detailed 3D models that reflect your brand, layout needs, and visitor flow.",
-      avRenter: "Tech and furniture rental",
+        "Bring your vision to life through creating detailed 3D models that perfect your brand awareness and visitor flow.",
+      avRenter: "Tech an furniture",
       avRenterDescription:
-        "Rent high-quality AV equipment, lighting, and stylish furniture — everything you need to create an engaging, functional space for your team and visitors.",
-      staffingSolution: "Staffing solutions",
+        "All the equipment you need to complete your project, from furniture to digital activities, etc.",
+      staffingSolution: "Expert Staffing",
       staffingSolutionDescription:
-        "Find trained event staff, hosts, and support teams to represent your brand professionally and enhance your booth experience.",
-      brandingAndPrining: "Branding and printing services",
+        "Find trained hosts and support teams to represent your brand and elevate the attendee experience.",
+      brandingAndPrining: "Stand builder",
       brandingAndPriningDescription:
-        "Get banners, signage, and promotional materials printed by trusted providers to make your stand visually impactful and consistent with your identity.",
-      branding: "Branding",
+        "Create a cohesive brand experience. Build high-impact booths with trusted stand builders to ensure your stand is visually powerful and on brand.",
+      branding: "Printing Solutions for Exhibitions",
       brandingDescription:
-        "Ensure smooth delivery of all stand materials with expert logistics partners handling transport, customs clearance, and on-site setup across the region.",
+        "Everything you need for printing, in the palm of your hands and efficiently wrapped up",
       logistics: "Logistics & customs assistance",
       logisticsDescription:
         "Ensure smooth delivery of all stand materials with expert logistics partners handling transport, customs clearance, and on-site setup across the region.",
