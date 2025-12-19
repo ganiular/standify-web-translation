@@ -36,7 +36,7 @@ const en = {
 
     // Hero Section
     Hero: {
-      title: "Your Exhibition Marketplace for the Middle East",
+      title: "One Link. One Exhibition Hub.",
       buttonListService: "List Service",
       buttonPostProject: "Post Project",
       buttonCreateEvent: "Create an Event",
@@ -47,20 +47,24 @@ const en = {
 
     // How it works section
     HowItWorks: {
-      title: "How It Works",
-      buildWithConfidence: "Build with Confidence",
+      title: "How We Power Your Project",
+      buildWithConfidence: "Kickstart your project with confidence.",
       buildWithConfidenceDescription:
-        "Work only with approved professionals and rely on secure payments, milestone tracking, and dedicated support.",
-      verifiedSuppliers: "Compare Verified Suppliers",
+        "Browse our handpicked network of trusted exhibition providers or let the Standify team recommend perfect-fit partners for your refined brief.",
+      verifiedSuppliers: "Get matched with Ideal Partners",
       verifiedSuppliersDescription:
-        "Browse a curated list of trusted vendors with ratings, reviews, and service portfolios tailored to your project needs.",
-      postYoutProject: "Post your project",
+        `Find your perfect partner with total ease.
+ Relax as tailored proposals arrive from our top-rated, fully vetted providers. Discover fresh ideas, compare competitive offers, and choose the one that aligns with your vision.
+ All on your own terms and with complete confidentiality`,
+      postYoutProject: "Collaborate and Succeed",
       postYoutProjectDescription:
-        "Easily share your project details, budget, and timeline to start receiving competitive proposals from top-rated suppliers.",
+        `Kick off your project with confidence from one integrated control hub.
+ Chat, share files, and handle secure payments all in one seamless space designed to make collaboration effortless.`,
     },
 
     About: {
-      title: "About Standify",
+      title: "Who We Are?"
+,
       list: {
         item1:
           "Standify is revolutionizing exhibition planning in the Gulf and MENA region",
@@ -72,39 +76,37 @@ const en = {
     },
 
     Users: {
-      title: "Our Users",
+      title: "Powering Every Side of the Exhibition",
       exhibitor: "Exhibitors",
       exhibitorDescription:
-        "Easily post your stand project and receive personalized quotes from trusted regional experts ready to bring your vision to life.",
+        "Post your project and receive tailored quotes from our vetted network of regional experts, ready to execute your vision flawlessly",
       provider: "Service Providers",
       providerDescription:
-        "Showcase your skills as a verified builder, designer, or supplier by pitching directly on projects that match your expertise.",
+        "Showcase your expertise and get directly discovered by quality clients with projects that match your skills.",
       organizer: "Organizers",
       organizerDescription:
-        "Manage exhibitor projects seamlessly, recommend the best providers, and even customize the platform to fit your event's unique needs.",
+        "Our platform lets you elevate your event remotely attract new audiences and re-engage past participants through a smooth and professional experience.",
     },
 
     EverythingYouNeed: {
-      title: "Everything You Need",
-      description: `Standify connects you with trusted service providers across the Gulf
-            and Middle East to deliver every element of your exhibition stand —
-            all in one place.`,
+      title: "All your problems solved at once.",
+      description: `Everything your brands requires in your event`,
       buttonExplore: "Explore Full Feature List",
-      boothDesign: "3D booth design",
+      boothDesign: "Design and Visualization",
       boothDesignDescription:
-        "Visualize your stand before it's built. Work with expert designers to create detailed 3D models that reflect your brand, layout needs, and visitor flow.",
-      avRenter: "Tech and furniture rental",
+        "Bring your vision to life through creating detailed 3D models that perfect your brand awareness and visitor flow.",
+      avRenter: "Tech an furniture",
       avRenterDescription:
-        "Rent high-quality AV equipment, lighting, and stylish furniture — everything you need to create an engaging, functional space for your team and visitors.",
-      staffingSolution: "Staffing solutions",
+        "All the equipment you need to complete your project, from furniture to digital activities, etc.",
+      staffingSolution: "Expert Staffing",
       staffingSolutionDescription:
-        "Find trained event staff, hosts, and support teams to represent your brand professionally and enhance your booth experience.",
-      brandingAndPrining: "Branding and printing services",
+        "Find trained hosts and support teams to represent your brand and elevate the attendee experience.",
+      brandingAndPrining: "Stand builder",
       brandingAndPriningDescription:
-        "Get banners, signage, and promotional materials printed by trusted providers to make your stand visually impactful and consistent with your identity.",
-      branding: "Branding",
+        "Create a cohesive brand experience. Build high-impact booths with trusted stand builders to ensure your stand is visually powerful and on brand.",
+      branding: "Printing Solutions for Exhibitions",
       brandingDescription:
-        "Ensure smooth delivery of all stand materials with expert logistics partners handling transport, customs clearance, and on-site setup across the region.",
+        "Everything you need for printing, in the palm of your hands and efficiently wrapped up",
       logistics: "Logistics & customs assistance",
       logisticsDescription:
         "Ensure smooth delivery of all stand materials with expert logistics partners handling transport, customs clearance, and on-site setup across the region.",
