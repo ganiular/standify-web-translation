@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const en = {
   Header: {
     buttonHomePage: "Home",
@@ -14,6 +16,7 @@ const en = {
     buttonRegister: "Register",
     buttonLightMode: "Light Mode",
     buttonDarkMode: "Dark Mode",
+    toastLogoutSuccess: "Logged out successfully",
   },
   Footer: {
     aboutUs: "About Us",

@@ -16,6 +16,7 @@ const ar: Translations = {
     buttonRegister: "إنشاء حساب",
     buttonLightMode: "الوضع الفاتح",
     buttonDarkMode: "الوضع الداكن",
+    toastLogoutSuccess: "تم تسجيل الخروج بنجاح",
   },
 
   Footer: {
