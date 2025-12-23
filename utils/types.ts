@@ -6,7 +6,10 @@ type FAQItem = {
   answer: string;
 };
 
-export type FAQData = {
+export type FAQDatum = {
   title: string;
   items: FAQItem[];
 };
+
+export type HomePageType = typeof en.HomePage;
+export type FAQsType = typeof en.FAQs;

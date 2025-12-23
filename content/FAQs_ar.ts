@@ -1,6 +1,6 @@
-import { FAQData } from "../utils/types";
+import { FAQDatum, FAQsType } from "../utils/types";
 
-const FAQs: FAQData[] = [
+const FAQdata: FAQDatum[] = [
   {
     title: "Getting Started (Exhibitors)",
     items: [
@@ -178,8 +178,10 @@ const FAQs: FAQData[] = [
   },
 ];
 
-export default {
+const FAQs: FAQsType = {
   title: "FAQs",
   description: "Frequently Asked Questions about Standify",
-  data: FAQs,
+  data: FAQdata,
 };
+
+export default FAQs;
