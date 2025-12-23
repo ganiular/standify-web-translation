@@ -1,3 +1,4 @@
+import FAQs from "./content/FAQs_ar";
 import { Translations } from "./utils/types";
 
 const ar: Translations = {
@@ -31,7 +32,7 @@ const ar: Translations = {
     categories: "الفئات",
     quickLink: "روابط سريعة",
   },
-
+  FAQs,
   HomePage: {
     title: "الصفحة الرئيسية",
     description: "",
@@ -81,16 +82,13 @@ const ar: Translations = {
     Users: {
       title: "مستخدمونا",
       exhibitor: "العارضون",
-      exhibitorDescription:
-        `
+      exhibitorDescription: `
 انشر مشروعك وتلقَّ عروض أسعار مخصّصة من شبكتنا المعتمدة من الخبراء الإقليميين الجاهزين لتنفيذ رؤيتك بدقّة تامة
 `,
       provider: "مزودو الخدمات",
-      providerDescription:
-        `اعرض خبراتك ودع العملاء المميزين يكتشفونك مباشرة من خلال مشاريع تتوافق مع مهاراتك`,
+      providerDescription: `اعرض خبراتك ودع العملاء المميزين يكتشفونك مباشرة من خلال مشاريع تتوافق مع مهاراتك`,
       organizer: "المنظمون",
-      organizerDescription:
-        `روّج لفعاليتك ودعها تصل إلى جمهور أكبر من خلال شبكتنا، ونظّمها بسهولة عبر منصّتنا. استقطب جمهورًا جديدًا وأعد مشاركة الحضور السابقين من خلال تجربة سلسة واحترافية.`,
+      organizerDescription: `روّج لفعاليتك ودعها تصل إلى جمهور أكبر من خلال شبكتنا، ونظّمها بسهولة عبر منصّتنا. استقطب جمهورًا جديدًا وأعد مشاركة الحضور السابقين من خلال تجربة سلسة واحترافية.`,
     },
 
     EverythingYouNeed: {

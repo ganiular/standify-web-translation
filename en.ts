@@ -1,4 +1,5 @@
 import { toast } from "react-toastify";
+import FAQs from "./content/FAQs_en";
 
 const en = {
   Header: {
@@ -30,6 +31,7 @@ const en = {
     categories: "Categories",
     quickLink: "Quick Links",
   },
+  FAQs,
   HomePage: {
     title: "Home Page",
     description: "",
@@ -52,19 +54,16 @@ const en = {
       buildWithConfidenceDescription:
         "Browse our handpicked network of trusted exhibition providers or let the Standify team recommend perfect-fit partners for your refined brief.",
       verifiedSuppliers: "Get matched with Ideal Partners",
-      verifiedSuppliersDescription:
-        `Find your perfect partner with total ease.
+      verifiedSuppliersDescription: `Find your perfect partner with total ease.
  Relax as tailored proposals arrive from our top-rated, fully vetted providers. Discover fresh ideas, compare competitive offers, and choose the one that aligns with your vision.
  All on your own terms and with complete confidentiality`,
       postYoutProject: "Collaborate and Succeed",
-      postYoutProjectDescription:
-        `Kick off your project with confidence from one integrated control hub.
+      postYoutProjectDescription: `Kick off your project with confidence from one integrated control hub.
  Chat, share files, and handle secure payments all in one seamless space designed to make collaboration effortless.`,
     },
 
     About: {
-      title: "Who We Are?"
-,
+      title: "Who We Are?",
       list: {
         item1:
           "Standify is revolutionizing exhibition planning in the Gulf and MENA region",
