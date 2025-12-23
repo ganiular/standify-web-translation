@@ -178,4 +178,8 @@ const FAQs: FAQData[] = [
   },
 ];
 
-export default FAQs;
+export default {
+  title: "FAQs",
+  description: "Frequently Asked Questions about Standify",
+  data: FAQs,
+};
