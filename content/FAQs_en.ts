@@ -1,6 +1,4 @@
-import { title } from "process";
 import { FAQData } from "../utils/types";
-import { da } from "zod/locales";
 
 const FAQs: FAQData[] = [
   {

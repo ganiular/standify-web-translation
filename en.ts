@@ -1,4 +1,3 @@
-import { toast } from "react-toastify";
 import FAQs from "./content/FAQs_en";
 
 const en = {
