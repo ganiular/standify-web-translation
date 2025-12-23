@@ -1,0 +1,381 @@
+{
+  "Header": {
+    "buttonHomePage": "الرئيسية",
+    "buttonMarketPlace": "السوق",
+    "buttonEventPage": "استكشاف الفعاليات",
+    "buttonPostService": "نشر خدمة",
+    "buttonPostProject": "نشر مشروع",
+    "buttonPostEvent": "نشر حدث",
+    "buttonInbox": "البريد الوارد",
+    "buttonAccount": "الحساب",
+    "buttonLogout": "تسجيل الخروج",
+    "buttonLoggingout": "جارٍ تسجيل الخروج...",
+    "buttonLogin": "تسجيل الدخول",
+    "buttonRegister": "إنشاء حساب",
+    "buttonLightMode": "الوضع الفاتح",
+    "buttonDarkMode": "الوضع الداكن",
+    "toastLogoutSuccess": "تم تسجيل الخروج بنجاح"
+  },
+  "Footer": {
+    "aboutUs": "من نحن",
+    "contactUs": "اتصل بنا",
+    "termsOfService": "شروط الخدمة",
+    "privacyPolicy": "سياسة الخصوصية",
+    "stayUpdated": "ابقَ على اطلاع",
+    "emailPlaceholder": "أدخل البريد الإلكتروني",
+    "buttonSubscribeNow": "اشترك الآن",
+    "buttonSubscribeNowLoading": "اشترك الآن",
+    "categories": "الفئات",
+    "quickLink": "روابط سريعة"
+  },
+  "FAQs": {
+    "title": "FAQs",
+    "description": "Frequently Asked Questions about Standify",
+    "data": [
+      {
+        "title": "Getting Started (Exhibitors)",
+        "items": [
+          {
+            "question": "What is Standify?",
+            "answer": "Standify is a marketplace to post your exhibition stand project, compare verified suppliers, and manage delivery across the Gulf & MENA—end‑to‑end."
+          },
+          {
+            "question": "Who is Standify for?",
+            "answer": "Exhibitors, service providers (builders, designers, AV, printing, logistics), and organizers who want a curated vendor pool."
+          },
+          {
+            "question": "How do I post a project?",
+            "answer": "Click “Post your project”, add event/city/dates, budget, and needs. You’ll receive tailored proposals from verified providers."
+          },
+          {
+            "question": "Which regions do you cover?",
+            "answer": "Primarily GCC/MENA (KSA, UAE, Qatar, Bahrain, Oman, Kuwait), with expanding EU support for cross‑region brands."
+          },
+          {
+            "question": "Is it free to post a project?",
+            "answer": "Yes. Posting is free; you only pay when you book a provider."
+          }
+        ]
+      },
+      {
+        "title": "Pricing & Payments",
+        "items": [
+          {
+            "question": "How does pricing work?",
+            "answer": "You receive transparent quotes from multiple verified providers. Compare scope, materials, and timelines side‑by-side."
+          },
+          {
+            "question": "Do you support milestone payments?",
+            "answer": "Yes. Pay in stages (design → production → handover) to protect both sides; each milestone is released when approved."
+          },
+          {
+            "question": "Is bank transfer available?",
+            "answer": "Yes. Bank transfer is preferable because it often offers a cheaper transfer rate vs. standard card/processor fees. Reference your project ID; funds typically clear in 1–3 business days."
+          },
+          {
+            "question": "What is the platform commission for suppliers?",
+            "answer": "The first three months for the supplier are free. After that, a 5% commission applies on transactions processed through the platform."
+          },
+          {
+            "question": "Which currencies are supported?",
+            "answer": "Commonly USD, EUR, AED, SAR. Mention your preference in the brief and we’ll match providers accordingly."
+          },
+          {
+            "question": "Refunds & disputes—how are they handled?",
+            "answer": "Milestones and platform messaging keep work traceable. Disputed milestones are paused until resolved per agreed scope."
+          }
+        ]
+      },
+      {
+        "title": "Projects, Quotes & Timelines",
+        "items": [
+          {
+            "question": "How fast will I get quotes?",
+            "answer": "Most briefs receive first responses within 24–72 business hours, depending on complexity and event date."
+          },
+          {
+            "question": "Can I request multiple design options?",
+            "answer": "Yes. Note it in the brief. Some providers include one concept + revisions; extra concepts may be quoted."
+          },
+          {
+            "question": "Can I upload drawings/brand guidelines?",
+            "answer": "Yes. Attach floorplans, logos, and brand manuals to improve accuracy and turnaround."
+          }
+        ]
+      },
+      {
+        "title": "Providers & Verification",
+        "items": [
+          {
+            "question": "How are providers vetted?",
+            "answer": "We verify identity, portfolio quality, references, insurance, and regional experience before granting badges."
+          },
+          {
+            "question": "What do profile badges mean?",
+            "answer": "Badges can indicate Verified, Insured, Languages (AR/EN), Years on platform, and specific expertise (e.g., LED/AV, Wood)."
+          },
+          {
+            "question": "Can I invite my preferred vendor?",
+            "answer": "Yes. Invite them to respond on Standify so everything is tracked in one place."
+          },
+          {
+            "question": "How are reviews handled?",
+            "answer": "Only completed jobs through Standify can be reviewed; no paid or unverifiable reviews."
+          }
+        ]
+      },
+      {
+        "title": "Logistics & On‑Site",
+        "items": [
+          {
+            "question": "Do providers handle installation and dismantling?",
+            "answer": "Yes. Quotes typically include fabrication, transport, on‑site build & dismantle, and handover to show management."
+          },
+          {
+            "question": "Do you cover customs and shipping?",
+            "answer": "Choose providers with logistics & customs assistance; they’ll handle ATA Carnet or local clearance where required."
+          },
+          {
+            "question": "Can I rent AV, furniture, or staff?",
+            "answer": "Yes. Add these in your brief or browse service categories (AV/LED walls, furniture, hosts)."
+          }
+        ]
+      },
+      {
+        "title": "Organizer Mode",
+        "items": [
+          {
+            "question": "Can organizers use Standify for their exhibitors?",
+            "answer": "Yes. Organizer Mode enables curated vendors, recommendations, and progress tracking for exhibitors in one dashboard."
+          },
+          {
+            "question": "Can we add event rules and deadlines?",
+            "answer": "Yes. Upload build rules, height limits, rigging notes, and key dates; providers see them in the brief."
+          },
+          {
+            "question": "Can we whitelabel the experience?",
+            "answer": "Co‑branding and curated vendor pools are available on request."
+          }
+        ]
+      },
+      {
+        "title": "Account & Support",
+        "items": [
+          {
+            "question": "How do I become a verified provider?",
+            "answer": "Apply via “Become a Provider”: submit company docs, portfolio, insurance, and categories—review typically in 3–7 days."
+          },
+          {
+            "question": "How do I contact support?",
+            "answer": "Use in‑app chat or email info@standify.com. For urgent show‑floor issues, use the escalation option in your project."
+          },
+          {
+            "question": "Can I close my account?",
+            "answer": "Yes. Go to Settings → Account. Financial records are retained as required by law; public listings are removed."
+          }
+        ]
+      }
+    ]
+  },
+  "HomePage": {
+    "title": "الصفحة الرئيسية",
+    "description": "",
+    "Hero": {
+      "title": "منصة واحدة لعالم خدمات المعارض",
+      "buttonListService": "إضافة خدمة",
+      "buttonPostProject": "نشر مشروع",
+      "buttonCreateEvent": "إنشاء حدث",
+      "buttonMarketPlace": "البحث عن الموردين",
+      "buttonGetStarted": "ابدأ الآن",
+      "buttonEventPage": "استكشاف الفعاليات"
+    },
+    "HowItWorks": {
+      "title": "كيف تبدأ مشروعك",
+      "buildWithConfidence": "أطلق مشروعك بثقة",
+      "buildWithConfidenceDescription": "تصفح شبكتنا المختارة بعناية من المزودين الموثوقين \n ودع فريق ستانديفاي \n يرشح لك الشركاء الأنسب لاحتياجاتك الدقيقة.\n",
+      "verifiedSuppliers": "اعثر على الشريك المثالي بسهولة تامة",
+      "verifiedSuppliersDescription": "استرخِ ودع العروض المصممة خصيصًا لك تصل من مزودين موثوقين.\nاستكشف أفكارًا جديدة، قارن بين أفضل العروض، واختر الأنسب لرؤيتك\n.كل ذلك بشروطك الخاصة وبسرية تامة\n",
+      "postYoutProject": "تعاون وابدأ النجاح مع فريقك",
+      "postYoutProjectDescription": "انشىء طلبك بثقة من لوحة تحكم متكاملة تجمع كل ما تحتاجه.\n تواصل، شارك الملفات، وادفع بأمان \nكل شيء في مكان واحد لتجربة سلسة وبسيطة"
+    },
+    "About": {
+      "title": "عن ستانديفاي",
+      "list": {
+        "item1": "ستانديفاي تحدث ثورة في تخطيط المعارض في الخليج ومنطقة الشرق الأوسط وشمال أفريقيا",
+        "item2": "انطلاقًا من التحديات مثل التكاليف الخفية ومقدمي الخدمات غير الموثوقين واللوجستيات المعقدة، أنشأنا منصة شفافة تربط العارضين مباشرة بالموردين المعتمدين والموثوقين",
+        "item3": "مصمم للمنطقة بدعم ثنائي اللغة وخبرة محلية عميقة. ستانديفاي يجعل تخطيط معرضك سلسًا وموثوقًا ووااثقًا"
+      }
+    },
+    "Users": {
+      "title": "مستخدمونا",
+      "exhibitor": "العارضون",
+      "exhibitorDescription": "\nانشر مشروعك وتلقَّ عروض أسعار مخصّصة من شبكتنا المعتمدة من الخبراء الإقليميين الجاهزين لتنفيذ رؤيتك بدقّة تامة\n",
+      "provider": "مزودو الخدمات",
+      "providerDescription": "اعرض خبراتك ودع العملاء المميزين يكتشفونك مباشرة من خلال مشاريع تتوافق مع مهاراتك",
+      "organizer": "المنظمون",
+      "organizerDescription": "روّج لفعاليتك ودعها تصل إلى جمهور أكبر من خلال شبكتنا، ونظّمها بسهولة عبر منصّتنا. استقطب جمهورًا جديدًا وأعد مشاركة الحضور السابقين من خلال تجربة سلسة واحترافية."
+    },
+    "EverythingYouNeed": {
+      "title": "كل ما تحتاجه لإدارة المعارض في مكان واحد",
+      "description": "احصل على كل ما تحتاجه لفعاليتك من خلال شبكة موثوقة تجمع أفضل المتخصصين في المجال.",
+      "buttonExplore": "استكشف قائمة الميزات الكاملة",
+      "boothDesign": "التصميم والتصوّر البصري ابدأ من الرؤية قبل التنفيذ",
+      "boothDesignDescription": "تخيل جناحك قبل بنائه. اعمل مع مصممين خبراء لإنشاء نماذج ثلاثية الأبعاد تعكس علامتك التجارية واحتياجاتك التخطيطية وتدفق الزوار.",
+      "avRenter": "تأجير التكنولوجيا والأثاث",
+      "avRenterDescription": " اعمل مع خبراء التصميم لتسليم نماذج ثلاثية الأبعاد متكاملة تُجسّد هوية علامتك التجارية،وتوزيع المساحات بدقة تضمن التميّز قبل مرحلة التنفيذ",
+      "staffingSolution": "حلول التوظيف",
+      "staffingSolutionDescription": "اعثر على موظفي فعاليات مدربين ومضيفين وفرق دعم لتمثيل علامتك التجارية باحترافية وتعزيز تجربة جناحك.",
+      "brandingAndPrining": "خدمات العلامة التجارية والطباعة",
+      "brandingAndPriningDescription": "احصل على لافتات ومواد ترويجية مطبوعة من مزودين موثوقين لجعل جناحك مؤثرًا بصريًا ومتسقًا مع هويتك.",
+      "branding": "العلامة التجارية",
+      "brandingDescription": "تأكد من تسليم جميع مواد الجناح بسلاسة مع شركاء لوجستيين خبراء يتولون النقل والتخليص الجمركي والتركيب في الموقع عبر المنطقة.",
+      "logistics": "الخدمات اللوجستية والمساعدة الجمركية",
+      "logisticsDescription": "تأكد من تسليم جميع مواد الجناح بسلاسة مع شركاء لوجستيين خبراء يتولون النقل والتخليص الجمركي والتركيب في الموقع عبر المنطقة."
+    },
+    "Brands": {
+      "title": "العلامات التجارية التي تستخدم ستانديفاي"
+    },
+    "WhyUs": {
+      "title": "لماذا تختار ستانديفاي",
+      "description": "اختبر الفرق مع منصتنا الشاملة المصممة خصيصًا لسوق المعارض في الشرق الأوسط، والتي تقدم خبرة لا مثيل لها وروابط سلسة.",
+      "regionalExpertise": "خبرة إقليمية",
+      "regionalExpertiseDescription": "اعمل مع خبراء إقليميين يتحدثون لغتك ويقدمون في الوقت المحدد مع معرفة عميقة بالسوق المحلي.",
+      "privacyFirst": "الخصوصية أولاً",
+      "privacyFirstDescription": "حماية البيانات أولاً مع أمان من مستوى المؤسسات وعملية سلسة وسريعة.",
+      "transparentPricing": "تسعير شفاف",
+      "transparentPricingDescription": "تسعير واضح ومسبق مع تفاصيل دقيقة للعروض دون رسوم خفية لكل مشروع.",
+      "verifiedProviders": "مزودون معتمدون",
+      "verifiedProvidersDescription": "جميع المزودين تم التحقق منهم بدقة وخضعوا لفحص الخلفية وموثوقون من حيث الجودة والاعتمادية."
+    },
+    "Events": {
+      "title": "أحدث الفعاليات",
+      "buttonCTA": "استكشف الفعاليات"
+    },
+    "UserReview": {
+      "title": "ماذا يقولون عن ستانديفاي"
+    },
+    "Video": {
+      "title": "شاهد أحدث مقاطع الفيديو لدينا",
+      "ctaTitle": "هل أنت مستعد للعرض في الخليج؟",
+      "buttonCTA": "ابدأ الآن"
+    },
+    "Team": {
+      "title": "فريقنا",
+      "description": "تعرف على الفريق الملتزم من خبراء الصناعة وراء ستانديفاي، المكرس لتحويل معرضك القادم بخبرة عالمية المستوى."
+    }
+  },
+  "Categories": {
+    "Booth Design": "تصميم الأجنحة",
+    "Booth Construction": "بناء الأجنحة",
+    "Logistics & Transportation": "الخدمات اللوجستية والنقل",
+    "Photography & Videography": "التصوير الفوتوغرافي وتصوير الفيديو",
+    "Promotional Materials": "المواد الترويجية",
+    "Event Staffing": "توظيف الفعاليات",
+    "Technology Solutions": "الحلول التقنية",
+    "Marketing & PR": "التسويق والعلاقات العامة"
+  },
+  "Service": {
+    "approved": "تمت الموافقة",
+    "rejected": "مرفوض",
+    "disabled": "معطل",
+    "pending": "في انتظار الموافقة",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "title": "نظرة عامة على الخدمة",
+    "category": "الفئة",
+    "price": "السعر",
+    "deliveryTime": "مدة التسليم",
+    "location": "الموقع",
+    "coverageArea": "نطاق التغطية",
+    "rating": "التقييم",
+    "reviews": "التقييمات",
+    "description": "الوصف",
+    "noDescriptionProvided": "لم يتم تقديم وصف.",
+    "features": "الميزات",
+    "requirements": "المتطلبات",
+    "noRequirements": "No specifications",
+    "gallery": "المعرض",
+    "noGallery": "لا توجد صور في المعرض.",
+    "vendor": "البائع",
+    "sending": "جارٍ الإرسال...",
+    "sendMessage": "إرسال رسالة",
+    "pleaseLogin": "يرجى <link>تسجيل الدخول</link> لإرسال رسالة إلى البائع."
+  },
+  "Review": {
+    "title": "تقييمات العملاء",
+    "reviews": "التقييمات",
+    "allReviews": "جميع التقييمات",
+    "stars": "النجوم",
+    "noReviews": "لا توجد تقييمات بعد لهذه الخدمة.",
+    "loading": "جارٍ التحميل...",
+    "loadMoreReviews": "تحميل المزيد من التقييمات"
+  },
+  "LoginPage": {
+    "buttonSignUp": "إنشاء حساب",
+    "title": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "recoverPassword": "استعادة كلمة المرور",
+    "buttonSubmitLoading": "جارٍ تسجيل الدخول...",
+    "buttonSubmit": "تسجيل الدخول",
+    "EmailVerificationDialog": {
+      "title": "يتطلب التحقق من البريد الإلكتروني",
+      "description": "يتطلب Standify بريدًا إلكترونيًا نشطًا للوصول إلى حسابك. \n    يرجى التحقق من بريدك الإلكتروني للمتابعة.",
+      "successMessage": "تم إرسال رسالة التحقق! يرجى التحقق من صندوق الوارد.",
+      "buttonSubmit": "طلب رابط التحقق",
+      "buttonSubmitLoading": "جارٍ طلب رابط التحقق..."
+    }
+  },
+  "RecoverPasswordPage": {
+    "buttonLogin": "تسجيل الدخول",
+    "title": "استعادة كلمة المرور",
+    "description": "أدخل عنوان البريد الإلكتروني الذي سجلت به في Standify،\n                  وستتلقى رسالة إلكترونية بمجرد التحقق.",
+    "email": "عنوان البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "recoverPassword": "استعادة كلمة المرور",
+    "buttonSubmit": "استعادة كلمة المرور",
+    "successTitle": "تم إرسال رابط الاستعادة",
+    "successMessage": "تحقق من بريدك الإلكتروني للحصول على رابط الاستعادة. شكرًا لاستخدامك Standify"
+  },
+  "SignUpPage": {
+    "exhibitor": "عارض",
+    "vendor": "بائع",
+    "organizer": "منظم",
+    "buttonLogin": "تسجيل الدخول",
+    "title": "إنشاء حساب",
+    "description": "لنبدأ معك",
+    "selectUserType": "اختر نوع المستخدم",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "terms": "<label>أوافق على </label> <tos>شروط الخدمة</tos> و <privacy>سياسة الخصوصية</privacy>",
+    "buttonSubmitLoading": "جارٍ إنشاء الحساب...",
+    "buttonSubmit": "إنشاء حساب",
+    "SignUpSuccessDialog": {
+      "title": "تم التسجيل بنجاح",
+      "description": "أرسل Standify رابط التحقق إلى بريدك الإلكتروني. \n    يرجى التحقق من بريدك الإلكتروني للمتابعة.",
+      "buttonOkay": "حسنًا"
+    }
+  },
+  "EmailVerificationPage": {
+    "buttonSuccess": "متابعة إلى تسجيل الدخول",
+    "titleError": "فشل التحقق",
+    "buttonError": "طلب رسالة تحقق جديدة"
+  },
+  "ResetPasswordPage": {
+    "title": "إعادة تعيين كلمة المرور",
+    "buttonLogin": "تسجيل الدخول الآن",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "passwordNotMatch": "كلمتا المرور غير متطابقتين",
+    "buttonSubmit": "إرسال",
+    "buttonSubmitLoading": "جارٍ الإرسال...",
+    "successMessage": "تمت إعادة تعيين كلمة المرور بنجاح"
+  },
+  "Event": {
+    "sending": "Sending...",
+    "sendMessage": "Send Message",
+    "pleaseLogin": "Please <link>log in</link> to send a message to the organizer."
+  }
+}
